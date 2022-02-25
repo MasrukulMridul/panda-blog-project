@@ -22,4 +22,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'home']);
 
+//Amin Route
 Route::get('/admin/login',[AdminController::class,'login']);
+Route::post('/admin/login',[AdminController::class,'submit_login']);
+Route::get('/admin/logout',[AdminController::class,'logout']);
+Route::get('/admin/dashboard',[AdminController::class,'dashboard']);
