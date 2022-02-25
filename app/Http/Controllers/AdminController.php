@@ -29,6 +29,6 @@ class AdminController extends Controller
     }
     // Dashboard
     function dashboard(){      
-    	return 'dashboard';
+    	return view('backend.dashboard');
     }
 }
