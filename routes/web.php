@@ -29,4 +29,4 @@ Route::post('/admin/login',[AdminController::class,'submit_login']);
 Route::get('/admin/dashboard',[AdminController::class,'dashboard']);
 
 // Categories
-Route::resource('category',CategoryController::class);
+Route::resource('admin/category',CategoryController::class);
